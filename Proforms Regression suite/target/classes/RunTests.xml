@@ -1,0 +1,49 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ExecuteTests">
+<test name="Test Create Draft Report RHS level 1 - End to End" >
+		<classes>
+			<class name="UnitTest.CreateDraftReport_RHS_Level_1" />
+		</classes>
+	</test>
+
+	<test name="Test Create Draft Report RHS Level 2">
+		<classes>
+			<class name="UnitTest.CreateDraftReport_RHS_Level2" />
+		</classes>
+	</test>
+	<test name = "Test Create Draft Report RHS level 2 With Valuation">
+		<classes>
+		<class name="UnitTest.CreateDraftReport_RHS_Level2WValuation" />
+		</classes>
+	</test>
+	<test name="Test Create Draft Report RHS Level 3">
+		<classes>
+			<class name="UnitTest.CreateDraftReport_RHS_Level3" />
+		</classes>
+	</test>
+	
+	<test name="Test Publish Completed Report RHS Level 1">
+		<classes>
+			<class name="UnitTest.PublishCompletedReport_RHS_Level_1" />
+		</classes>
+	</test>
+
+	<test name="Test Publish Completed Report RHS Level 2">
+		<classes>
+			<class name="UnitTest.PublishCompletedReport_RHS_Level_2" />
+		</classes>
+	</test>
+
+	<test name="Test Publish Completed Report RHS Level 2 With Valuation">
+		<classes>
+			<class name="UnitTest.PublishCompletedReport_RHS_Level2WValuation" />
+		</classes>
+	</test>
+	
+	<test name="Test Publish Completed Report RHS Level 3">
+		<classes>
+			<class name="UnitTest.PublishCompletedReport_RHS_Level3" />
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,6 @@
+Important Test Action to Perform After the compareDraft and compareCompleted Report tests:
+1. If the result of the comparison is 'Differences found on the Expected Draft and Actual Draft Reports!' and there is NO results(PNG File) file created
+    Re-compare the expected and actual PDF files using this site: https://draftable.com/compare to check the actual differences comitted on the files to help decide whether this is a valid issue or not
+
+2. If the result of the comparison is 'Differences found on the Expected Draft and Actual Draft Reports!' and there is A results(PNG File) file created 
+    Open the PNG file and check that the only difference highlighted is the 'Date this report was produced' as this field is always set to the date today
